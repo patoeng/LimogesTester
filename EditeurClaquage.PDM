@@ -1,0 +1,204 @@
+[Root]
+Most Recent Package=Editeur Claquage Banc XS V4.1
+
+
+[Package|Editeur Claquage Banc XS V4.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\banc_XS\Setup Editeur Claquage Banc XS V4.0
+
+[Package|Editeur Claquage Banc XS V4.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Editeur Claquage Banc XS V4.0|Files Found]
+
+[Package|Editeur Claquage Banc XS V4.0|Files Released]
+
+[Package|Editeur Claquage Banc XS V4.0|Missing Dependency Information]
+
+[Package|Editeur Claquage Banc XS V4.0|Out-of-Date Dependency Information]
+
+[Package|Editeur Claquage Banc XS V4.0|Files Added]
+
+[Package|Editeur Claquage Banc XS V4.0|Files Removed]
+
+[Package|Editeur Claquage Banc XS V4.0|Files In Project]
+C:\banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Editeur Claquage Banc XS V4.0|Configure Registry Files]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.0|Install Locations]
+C:\banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Editeur Claquage Banc XS V4.0|Configure Shared Files]
+Applicable=Yes
+C:\banc_XS\Exe\EditeurClaquage.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Editeur Claquage Banc XS V4.0|Distribution]
+Type=single
+Size=
+Title=EditeurClaquage V4
+
+[Package|Editeur Claquage Banc XS V4.0|IconGroups]
+Group0=EditeurClaquage V4
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Editeur Claquage Banc XS V4.0|EditeurClaquage V4]
+Icon1=EditeurClaquage.exe
+Title1=EditeurClaquage V4
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Editeur Claquage Banc XS V4.0|Package]
+PackageFolder=C:\banc_XS\Setup Editeur Claquage Banc XS V4.0
+ProjectFolder=C:\banc_XS\Sources VB6\167398601A7704_beta
+ServerSideCab=
+File1=C:\banc_XS\Setup Editeur Claquage Banc XS V4.0\setup.exe
+File2=C:\banc_XS\Setup Editeur Claquage Banc XS V4.0\Setup.Lst
+File3=C:\banc_XS\Setup Editeur Claquage Banc XS V4.0\EditeurClaquage.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Editeur Claquage Banc XS V4.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\banc_XS\Setup Editeur Claquage Banc XS V4.1
+
+[Package|Editeur Claquage Banc XS V4.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Editeur Claquage Banc XS V4.1|Files Found]
+
+[Package|Editeur Claquage Banc XS V4.1|Files Released]
+
+[Package|Editeur Claquage Banc XS V4.1|Missing Dependency Information]
+
+[Package|Editeur Claquage Banc XS V4.1|Out-of-Date Dependency Information]
+
+[Package|Editeur Claquage Banc XS V4.1|Files Added]
+
+[Package|Editeur Claquage Banc XS V4.1|Files Removed]
+
+[Package|Editeur Claquage Banc XS V4.1|Files In Project]
+C:\banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGFR.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCFR.DLL=Yes
+
+[Package|Editeur Claquage Banc XS V4.1|Configure Registry Files]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Editeur Claquage Banc XS V4.1|Install Locations]
+C:\banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCFR.DLL=$(WinSysPath)
+
+[Package|Editeur Claquage Banc XS V4.1|Configure Shared Files]
+Applicable=Yes
+C:\banc_XS\Exe\EditeurClaquage.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Editeur Claquage Banc XS V4.1|Distribution]
+Type=single
+Size=
+Title=EditeurClaquage V4.1
+
+[Package|Editeur Claquage Banc XS V4.1|Package]
+PackageFolder=C:\banc_XS\Setup Editeur Claquage Banc XS V4.1
+ProjectFolder=C:\Banc_XS\Sources VB6\167398601A7704.1
+ServerSideCab=
+File1=C:\banc_XS\Setup Editeur Claquage Banc XS V4.1\setup.exe
+File2=C:\banc_XS\Setup Editeur Claquage Banc XS V4.1\Setup.Lst
+File3=C:\banc_XS\Setup Editeur Claquage Banc XS V4.1\EditeurClaquage.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Editeur Claquage Banc XS V4.1|IconGroups]
+Group0=EditeurClaquage V4
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Editeur Claquage Banc XS V4.1|EditeurClaquage V4]
+Icon1=EditeurClaquage.exe
+Title1=EditeurClaquage V4
+StartIn1=$(AppPath)
+Key1=Icon1

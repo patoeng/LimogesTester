@@ -1,0 +1,744 @@
+[Root]
+Most Recent Package=Logiciel d'installation Banc XS V4.1
+
+
+[Package|Logiciel d'installation Banc XS V2.3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Banc_XS\Setup Bancs XS V2.3
+
+[Package|Logiciel d'installation Banc XS V2.3|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Logiciel d'installation Banc XS V2.3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel d'installation Banc XS V2.3|Files Found]
+
+[Package|Logiciel d'installation Banc XS V2.3|Files Released]
+USER.DLL=
+Drvr488.Dll=
+Kernel.DLL=
+
+[Package|Logiciel d'installation Banc XS V2.3|Missing Dependency Information]
+C:\Banc_XS\Exe\EditeurClaquage.exe=
+
+[Package|Logiciel d'installation Banc XS V2.3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Logiciel d'installation Banc XS V2.3|Files Added]
+c:\banc_xs\exe\editeurclaquage.exe=
+c:\banc_xs\config.ini=
+
+[Package|Logiciel d'installation Banc XS V2.3|Files Removed]
+
+[Package|Logiciel d'installation Banc XS V2.3|Files In Project]
+C:\Banc_XS\Exe\CONTROL_ip.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\system32\msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\msjint35.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\Msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\stdftfr.dll=Yes
+C:\WINDOWS\system32\DBRPRFR.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrnfr.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINDOWS\system32\mfc40loc.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCMCFR.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKFR.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Banc_XS\ocx\AfficheProj1.ocx=Yes
+C:\Banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\Banc_XS\config.ini=Yes
+C:\WINDOWS\system32\Affiche_defaut.dll=Yes
+C:\WINDOWS\system32\Threed32.ocx=Yes
+
+[Package|Logiciel d'installation Banc XS V2.3|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V2.3|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V2.3|Install Locations]
+C:\Banc_XS\Exe\CONTROL_ip.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\stdftfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\Banc_XS\ocx\Threed32.OCX=$(WinSysPath)
+C:\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\Banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\Banc_XS\config.ini=$(AppPath)
+C:\WINDOWS\system32\Affiche_defaut.dll=$(WinSysPath)
+
+[Package|Logiciel d'installation Banc XS V2.3|Configure Shared Files]
+Applicable=Yes
+C:\Banc_XS\Exe\CONTROL_ip.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Banc_XS\Exe\EditeurClaquage.exe=No
+C:\Banc_XS\config.ini=No
+
+[Package|Logiciel d'installation Banc XS V2.3|Distribution]
+Type=single
+Size=
+Title=POSTE DE CONTROLE XS V2.3
+
+[Package|Logiciel d'installation Banc XS V2.3|Package]
+PackageFolder=C:\Banc_XS\Setup Bancs XS V2.3
+ProjectFolder=C:\Banc_XS\Sources VB6\167398601A7702
+ServerSideCab=
+File1=C:\Banc_XS\Setup Bancs XS V2.3\setup.exe
+File2=C:\Banc_XS\Setup Bancs XS V2.3\Setup.Lst
+File3=C:\Banc_XS\Setup Bancs XS V2.3\CONTROL_ip.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Logiciel d'installation Banc XS V2.3|IconGroups]
+Group0=POSTE DE CONTROLE XS V2.3
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation Banc XS V2.3|POSTE DE CONTROLE XS V2.3]
+Icon1=CONTROL_ip.exe
+Title1=POSTE DE CONTROLE XS V2.3
+StartIn1=C:\Banc_XS
+Key1=Icon1
+
+
+[Package|Logiciel d'installation Banc XS V3.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Banc_XS\Setup Bancs XS V3.0
+
+[Package|Logiciel d'installation Banc XS V3.0|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Logiciel d'installation Banc XS V3.0|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Logiciel d'installation Banc XS V3.0|Files Found]
+
+[Package|Logiciel d'installation Banc XS V3.0|Files Released]
+USER.DLL=
+Drvr488.Dll=
+Kernel.DLL=
+
+[Package|Logiciel d'installation Banc XS V3.0|Missing Dependency Information]
+C:\Banc_XS\Exe\EditeurClaquage.exe=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+
+[Package|Logiciel d'installation Banc XS V3.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Logiciel d'installation Banc XS V3.0|Files Added]
+c:\banc_xs\exe\editeurclaquage.exe=
+c:\banc_xs\config.ini=
+
+[Package|Logiciel d'installation Banc XS V3.0|Files Removed]
+
+[Package|Logiciel d'installation Banc XS V3.0|Files In Project]
+C:\Banc_XS\Exe\CONTROL_ip.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\system32\msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\msjint35.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\Msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\stdftfr.dll=Yes
+C:\WINDOWS\system32\DBRPRFR.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrnfr.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINDOWS\system32\mfc40loc.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCMCFR.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKFR.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Banc_XS\ocx\AfficheProj1.ocx=Yes
+C:\Banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\Banc_XS\config.ini=Yes
+C:\WINDOWS\system32\Affiche_defaut.dll=Yes
+C:\WINDOWS\system32\Threed32.ocx=Yes
+
+[Package|Logiciel d'installation Banc XS V3.0|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V3.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V3.0|Install Locations]
+C:\Banc_XS\Exe\CONTROL_ip.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\stdftfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\Banc_XS\ocx\Threed32.OCX=$(WinSysPath)
+C:\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\Banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\Banc_XS\config.ini=$(AppPath)
+C:\WINDOWS\system32\Affiche_defaut.dll=$(WinSysPath)
+
+[Package|Logiciel d'installation Banc XS V3.0|Configure Shared Files]
+Applicable=Yes
+C:\Banc_XS\Exe\CONTROL_ip.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Banc_XS\Exe\EditeurClaquage.exe=No
+C:\Banc_XS\config.ini=No
+
+[Package|Logiciel d'installation Banc XS V3.0|Distribution]
+Type=single
+Size=
+Title=POSTE DE CONTROLE XS V3.0
+
+[Package|Logiciel d'installation Banc XS V3.0|IconGroups]
+Group0=POSTE DE CONTROLE XS V3
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation Banc XS V3.0|POSTE DE CONTROLE XS V3]
+Icon1=CONTROL_ip.exe
+Title1=POSTE DE CONTROLE XS V3
+StartIn1=C:\Banc_XS
+Key1=Icon1
+
+[Package|Logiciel d'installation Banc XS V3.0|Package]
+PackageFolder=C:\Banc_XS\Setup Bancs XS V3.0
+ProjectFolder=C:\Banc_XS\Sources VB6\167398601A7703
+ServerSideCab=
+File1=C:\Banc_XS\Setup Bancs XS V3.0\setup.exe
+File2=C:\Banc_XS\Setup Bancs XS V3.0\Setup.Lst
+File3=C:\Banc_XS\Setup Bancs XS V3.0\CONTROL_ip.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Logiciel d'installation Banc XS V4.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Banc_XS
+
+[Package|Logiciel d'installation Banc XS V4.0|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Logiciel d'installation Banc XS V4.0|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Logiciel d'installation Banc XS V4.0|Files Found]
+
+[Package|Logiciel d'installation Banc XS V4.0|Files Released]
+USER.DLL=
+Drvr488.Dll=
+Kernel.DLL=
+
+[Package|Logiciel d'installation Banc XS V4.0|Missing Dependency Information]
+C:\Banc_XS\Exe\EditeurClaquage.exe=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+
+[Package|Logiciel d'installation Banc XS V4.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Logiciel d'installation Banc XS V4.0|Files Added]
+c:\banc_xs\exe\editeurclaquage.exe=
+c:\banc_xs\config.ini=
+
+[Package|Logiciel d'installation Banc XS V4.0|Files Removed]
+
+[Package|Logiciel d'installation Banc XS V4.0|Files In Project]
+C:\Banc_XS\Exe\CONTROL_ip.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\system32\msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\msjint35.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\Msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\stdftfr.dll=Yes
+C:\WINDOWS\system32\DBRPRFR.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrnfr.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINDOWS\system32\mfc40loc.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCMCFR.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKFR.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Banc_XS\ocx\AfficheProj1.ocx=Yes
+C:\Banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\Banc_XS\config.ini=Yes
+C:\WINDOWS\system32\Threed32.ocx=Yes
+C:\banc_XS\ocx\Affiche_defaut.dll=Yes
+
+[Package|Logiciel d'installation Banc XS V4.0|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V4.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V4.0|Install Locations]
+C:\Banc_XS\Exe\CONTROL_ip.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\stdftfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\Banc_XS\ocx\Threed32.OCX=$(WinSysPath)
+C:\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\Banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\Banc_XS\config.ini=$(AppPath)
+C:\WINDOWS\system32\Affiche_defaut.dll=$(WinSysPath)
+
+[Package|Logiciel d'installation Banc XS V4.0|Configure Shared Files]
+Applicable=Yes
+C:\Banc_XS\Exe\CONTROL_ip.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Banc_XS\Exe\EditeurClaquage.exe=No
+C:\Banc_XS\config.ini=No
+
+[Package|Logiciel d'installation Banc XS V4.0|Distribution]
+Type=single
+Size=
+Title=POSTE DE CONTROLE XS V4.0
+
+[Package|Logiciel d'installation Banc XS V4.0|IconGroups]
+Group0=POSTE DE CONTROLE XS V4
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation Banc XS V4.0|POSTE DE CONTROLE XS V4]
+Icon1=CONTROL_ip.exe
+Title1=POSTE DE CONTROLE XS V4
+StartIn1=C:\Banc_XS
+Key1=Icon1
+
+[Package|Logiciel d'installation Banc XS V4.0|Package]
+PackageFolder=C:\Banc_XS
+ProjectFolder=C:\banc_XS\Sources VB6\167398601A7704_beta
+ServerSideCab=
+File1=C:\Banc_XS\setup.exe
+File2=C:\Banc_XS\Setup.Lst
+File3=C:\Banc_XS\CONTROL_ip.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Logiciel d'installation Banc XS V4.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Banc_XS\Setup Bancs XS V4.1
+
+[Package|Logiciel d'installation Banc XS V4.1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Logiciel d'installation Banc XS V4.1|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Logiciel d'installation Banc XS V4.1|Files Found]
+
+[Package|Logiciel d'installation Banc XS V4.1|Files Released]
+USER.DLL=
+Drvr488.Dll=
+Kernel.DLL=
+
+[Package|Logiciel d'installation Banc XS V4.1|Missing Dependency Information]
+C:\Banc_XS\Exe\EditeurClaquage.exe=
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\Banc_XS\ocx\AfficheProj1.ocx=
+C:\Banc_XS\ocx\Affiche_defaut.dll=
+
+[Package|Logiciel d'installation Banc XS V4.1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\MSRDO20.DLL=
+
+[Package|Logiciel d'installation Banc XS V4.1|Files Added]
+c:\banc_xs\exe\editeurclaquage.exe=
+c:\banc_xs\config.ini=
+
+[Package|Logiciel d'installation Banc XS V4.1|Files Removed]
+
+[Package|Logiciel d'installation Banc XS V4.1|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\system32\msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\msjint35.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\Msrd2x35.dll=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\stdftfr.dll=Yes
+C:\WINDOWS\system32\DBRPRFR.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrnfr.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\WINDOWS\system32\mfc40loc.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCMCFR.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKFR.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Banc_XS\ocx\AfficheProj1.ocx=Yes
+C:\Banc_XS\Exe\EditeurClaquage.exe=Yes
+C:\Banc_XS\config.ini=Yes
+C:\WINDOWS\system32\Threed32.ocx=Yes
+C:\banc_XS\ocx\Affiche_defaut.dll=Yes
+C:\Banc_XS\Exe\CONTROL_ip.exe=Yes
+
+[Package|Logiciel d'installation Banc XS V4.1|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V4.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation Banc XS V4.1|Install Locations]
+C:\Banc_XS\Exe\CONTROL_ip.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\stdftfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\system32\THREED32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mfc40loc.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCFR.DLL=$(WinSysPath)
+C:\Documents and Settings\PAr\Mes documents\BEEA\AFFAIRES\07\07006-SCHNEIDER-Data claquage.EC\Progs après modifs\tous PC\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Banc_XS\ocx\Affiche_defaut.dll=$(WinSysPath)
+C:\Banc_XS\ocx\Threed32.OCX=$(WinSysPath)
+C:\Banc_XS\ocx\AfficheProj1.ocx=$(WinSysPath)
+C:\Banc_XS\Exe\EditeurClaquage.exe=$(AppPath)
+C:\Banc_XS\config.ini=$(AppPath)
+C:\WINDOWS\system32\Affiche_defaut.dll=$(WinSysPath)
+C:\Banc_XS\Exe\CONTROL_ip_V4.1.1.exe=$(AppPath)
+
+[Package|Logiciel d'installation Banc XS V4.1|Configure Shared Files]
+Applicable=Yes
+C:\Banc_XS\Exe\CONTROL_ip.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Banc_XS\Exe\EditeurClaquage.exe=No
+C:\Banc_XS\config.ini=No
+C:\Banc_XS\Exe\CONTROL_ip_V4.1.1.exe=No
+
+[Package|Logiciel d'installation Banc XS V4.1|Distribution]
+Type=single
+Size=
+Title=POSTE DE CONTROLE XS V4.1
+
+[Package|Logiciel d'installation Banc XS V4.1|IconGroups]
+Group0=POSTE DE CONTROLE XS V4
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation Banc XS V4.1|POSTE DE CONTROLE XS V4]
+Icon1=CONTROL_ip.exe
+Title1=POSTE DE CONTROLE XS V4
+StartIn1=C:\Banc_XS
+Key1=Icon1
+
+[Package|Logiciel d'installation Banc XS V4.1|Package]
+PackageFolder=C:\Banc_XS\Setup Bancs XS V4.1
+ProjectFolder=C:\Banc_XS\Sources VB6\167398601A7704.1
+ServerSideCab=
+File1=C:\Banc_XS\Setup Bancs XS V4.1\setup.exe
+File2=C:\Banc_XS\Setup Bancs XS V4.1\Setup.Lst
+File3=C:\Banc_XS\Setup Bancs XS V4.1\CONTROL_ip.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

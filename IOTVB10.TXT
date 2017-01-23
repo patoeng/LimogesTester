@@ -1,0 +1,142 @@
+Global Const NODEVICE% = -1
+Global Const TERMIN = 1
+Global Const TERMOUT = 2
+Global Const TURNON = 1
+Global Const TURNOFF = 0
+Global Const ALL = -1
+Global Const WHILESRQ = -2
+Global Const UNTILRSV = -3
+
+'These Constants are used with the Arm and Disarm functions
+
+Global Const acSRQ = &H400
+Global Const acPeripheral = &H200
+Global Const acController = &H100
+Global Const acTrigger = &H80
+Global Const acClear = &H40
+Global Const acTalk = &H20
+Global Const acListen = &H10
+Global Const acIdle = &H8
+Global Const acByteIn = &H4
+Global Const acByteOut = &H2
+Global Const acChange = &H1
+
+' These Constants are the returned values in the compStat parameter for
+' Enter and Output functions
+
+Global Const ccCount = &H1
+Global Const ccBuffer = &H2
+Global Const ccTerm = &H4
+Global Const ccEnd = &H8
+Global Const ccChange = &H10
+Global Const ccStop = &H20
+Global Const ccDone = &H4000
+Global Const ccError = &H8000
+
+'This Type is used with the Enter, Output, and Term functions
+
+Type terms
+   eoi       As Integer
+   nChar     As Integer
+   EightBits As Integer
+   term1     As Integer
+   term2     As Integer
+End Type
+
+'This Type is used with the Status function
+
+Type IeeeStatus
+   SC          As Integer
+   CA          As Integer
+   Primaddr    As Integer
+   Secaddr     As Integer
+   SRQ         As Integer
+   addrChange  As Integer
+   talker      As Integer
+   listener    As Integer
+   triggered   As Integer
+   cleared     As Integer
+   transfer    As Integer
+   byteIn      As Integer
+   byteOut     As Integer
+End Type
+
+' Conversion routines to account for differences between the BASIC
+' structures and the structures expected by the DLL
+
+' This is a list of C routines directly accessible from Visual Basic
+
+Declare Function Abort Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function Arm Lib "Drvr488.Dll" (ByVal devHandle%, ByVal armcond%) As Integer
+Declare Function AutoRemote Lib "Drvr488.Dll" (ByVal devHandle%, ByVal flag%) As Integer
+Declare Function Buffered Lib "Drvr488.Dll" (ByVal devHandle%) As Long
+Declare Function BusAddress Lib "Drvr488.Dll" (ByVal devHandle%, ByVal prim%, ByVal sec%) As Integer
+Declare Function CheckListener Lib "Drvr488.Dll" (ByVal devHandle%, ByVal prim%, ByVal sec%) As Integer
+Declare Function ioClear Lib "Drvr488.Dll" Alias "Clear" (ByVal devHandle%) As Integer
+Declare Function ClearList Lib "Drvr488.Dll" (listFirstElement%) As Integer
+Declare Function ClockFrequency Lib "Drvr488.Dll" (ByVal devHandle%, ByVal freq%) As Integer
+Declare Function ioClose Lib "Drvr488.Dll" Alias "Close" (ByVal devHandle%) As Integer
+Declare Function ControlLine Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function Disarm Lib "Drvr488.Dll" (ByVal devHandle%, ByVal armcond%) As Integer
+Declare Function DmaChannel Lib "Drvr488.Dll" (ByVal devHandle%, ByVal channel%) As Integer
+Declare Function EnterXdll Lib "Drvr488.Dll" Alias "EnterX" (ByVal devHandle%, dat As Any, ByVal count&, ByVal forceAddress%, term As Any, ByVal async%, compStat%) As Long
+Declare Function EnterXIdll Lib "Drvr488.Dll" Alias "EnterX" (ByVal devHandle%, dat As Integer, ByVal count&, ByVal forceAddress%, term As Any, ByVal async%, compStat%) As Long
+Declare Function ioError Lib "Drvr488.Dll" Alias "Error" (ByVal devHandle%, ByVal display%) As Integer
+Declare Function Finish Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function FindListeners Lib "Drvr488.Dll" (ByVal devHandle%, ByVal primary%, listFirstElement%, ByVal limit%) As Integer
+Declare Function GetError Lib "Drvr488.Dll" (ByVal devHandle%, ByVal errorText$) As Integer
+Declare Function GetErrorList Lib "Drvr488.Dll" (listFirstElement%, ByVal errorText$, errorHandle%) As Integer
+Declare Function Hello Lib "Drvr488.Dll" (ByVal devHandle%, ByVal helloText$) As Integer
+Declare Function IntLevel Lib "Drvr488.Dll" (ByVal devHandle%, ByVal channel%) As Integer
+Declare Function IOAddress Lib "Drvr488.Dll" (ByVal devHandle%, ByVal addr%) As Integer
+Declare Function KeepDevice Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function Listen Lib "Drvr488.Dll" (ByVal devHandle%, ByVal prim%, ByVal sec%) As Integer
+Declare Function ioLocal Lib "Drvr488.Dll" Alias "Local" (ByVal devHandle%) As Integer
+Declare Function LocalList Lib "Drvr488.Dll" (listFirstElement%) As Integer
+Declare Function Lol Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function MakeDevice Lib "Drvr488.Dll" (ByVal devHandle%, ByVal nam$) As Integer
+Declare Function MyListenAddr Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function MyTalkAddr Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function OpenName Lib "Drvr488.Dll" (ByVal nam As String) As Integer
+Declare Function OutputXdll Lib "Drvr488.Dll" Alias "OutputX" (ByVal devHandle%, dat As Any, ByVal count&, ByVal last%, ByVal forceAddress%, term As Any, ByVal async%, compStat As Any) As Long
+Declare Function OutputXIdll Lib "Drvr488.Dll" Alias "OutputX" (ByVal devHandle%, dat As Integer, ByVal count&, ByVal last%, ByVal forceAddress%, term As Any, ByVal async%, compStat As Any) As Long
+Declare Function PassControl Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function PPoll Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function PPollConfig Lib "Drvr488.Dll" (ByVal devHandle%, ByVal ppresponse%) As Integer
+Declare Function PPollDisable Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function PPollDisableList Lib "Drvr488.Dll" (listFirstElement%) As Integer
+Declare Function PPollUnconfig Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function Remote Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function RemoteList Lib "Drvr488.Dll" (listFirstElement%) As Integer
+Declare Function RemoveDevice Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function Request Lib "Drvr488.Dll" (ByVal devHandle%, ByVal spstatus%) As Integer
+Declare Function ioReset Lib "Drvr488.Dll" Alias "Reset" (ByVal devHandle%) As Integer
+Declare Function ioResume Lib "Drvr488.Dll" Alias "Resume" (ByVal devHandle%, ByVal monitor%) As Integer
+Declare Function SendCmd Lib "Drvr488.Dll" (ByVal devHandle%, dat As Any, ByVal count%) As Integer
+Declare Function SendData Lib "Drvr488.Dll" (ByVal devHandle%, dat As Any, ByVal count%) As Integer
+Declare Function SendEoi Lib "Drvr488.Dll" (ByVal devHandle%, dat As Any, ByVal count%) As Integer
+Declare Function SPoll Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function SPollList Lib "Drvr488.Dll" (listFirstElement%, result%, ByVal flag%) As Integer
+Declare Function Statusdll Lib "Drvr488.Dll" Alias "Status" (ByVal devHandle%, stat As IeeeStatus) As Integer
+Declare Function ioStop Lib "Drvr488.Dll" Alias "Stop" (ByVal devHandle%) As Integer
+Declare Function SysController Lib "Drvr488.Dll" (ByVal devHandle%, ByVal flag%) As Integer
+Declare Function Talk Lib "Drvr488.Dll" (ByVal devHandle%, ByVal prim%, ByVal sec%) As Integer
+Declare Function Termdll Lib "Drvr488.Dll" Alias "Term" (ByVal devHandle%, term As terms, ByVal termType%) As Integer
+Declare Function TimeOut Lib "Drvr488.Dll" (ByVal devHandle%, ByVal millisec&) As Integer
+Declare Function Trigger Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function TriggerList Lib "Drvr488.Dll" (listFirstElement%) As Integer
+Declare Function UnListen Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function UnTalk Lib "Drvr488.Dll" (ByVal devHandle%) As Integer
+Declare Function ioWait Lib "Drvr488.Dll" Alias "Wait" (ByVal devHandle%) As Integer
+
+
+'*******************************************************
+'This is the beginning of the application-oriented
+'declarations
+'*******************************************************
+
+' These declarations are necessary for unloading the
+' driver application and its icon
+Declare Function FindWindow Lib "User" (ByVal data1$, ByVal data2$) As Integer
+Declare Function SendMessage Lib "User" (ByVal winHandle%, ByVal message%, ByVal wp%, ByVal lp As Long) As Integer
+
